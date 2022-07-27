@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "poppins", "helvetica";
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background: url("./Assets/bg.png");
+  background-size: cover;
+  color: #ffffff;
+  text-align: center;
+}
+
+/* navbar */
+
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 1.5rem 5rem;
+  background: black;
+  color: #ffffff;
+}
+
+
+.line {
+  margin: 0 5rem;
+  width: 1px;
+  height: 65px;
+  background: #ffffff;
+}
+
+
+.list {
+  display: flex;
+  gap: 3rem;
+  list-style: none;
+  font-family: 'poppins', sans-serif;
+}
+
+
+/* buttons */
+
+.button-small {
+  position: absolute;
+  background-color: #b90ec4;
+  color: #ffffff;
+  border-radius: 8px;
+  border: none;
+  padding: 10px;
+  height: 40px;
+  width: 120px;
+  margin-left: 159px;
+  margin-top: -24px;
+  font-weight: 700;
+}
+
+.button-large {
+  background-color: #b90ec4;
+  color: #ffffff;
+  border-radius: 8px;
+  border: none;
+  height: 50px;
+  width: 280px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 40px;
+}
+
+/* hero */
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+.hero-heading {
+  font-size: 70px;
+  font-weight: bold;
+  margin-top: 60px;
+}
+
+
+
+.hero-description {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 10px;
+}
