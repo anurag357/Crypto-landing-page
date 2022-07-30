@@ -21,5 +21,3 @@ It takes 2 hours to complete it.
 # Thanks to:
 [LearnCodeOnline](https://courses.learncodeonline.in/learn)
 
-## My article on positioning.
-[Hashnode](https://vikas360.hashnode.dev/positioning-in-css)
